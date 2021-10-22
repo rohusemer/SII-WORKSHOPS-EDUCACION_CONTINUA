@@ -3,9 +3,9 @@ package ec.edu.espol.workshops;
 import java.util.Scanner;
 
 class Carlnsurance {
-	private static int edad;
-	private static String sexo;
-	private static String eCivil;
+	public int edad;
+	public String sexo;
+	public String eCivil;
 	static final int PRIMABASE = 500;
 	static final int CasadoOMujer = 200;
 	static final int DescuentoEdad = 100;
@@ -17,31 +17,31 @@ class Carlnsurance {
 		eCivil = estado;
 	}
 	
-	public static void setEdad(int valoredad) {
+	public  void setEdad(int valoredad) {
 		edad = valoredad;
 	}
 	
-	public static int getEdad() {
+	public  int getEdad() {
 		return edad;
 	}
 	
-	public static void setSexo(String valorsexo) {
+	public  void setSexo(String valorsexo) {
 		sexo = valorsexo;
 	}
 	
-	public static String getSexo() {
+	public  String getSexo() {
 		return sexo;
 	}
 	
-	public static void setEstado(String estado) {
+	public  void setEstado(String estado) {
 		eCivil = estado;
 	}
 	
-	public static String getEstado() {
+	public  String getEstado() {
 		return eCivil;
 	}
 	
-	public static int calcularInsurance(String licencia) {
+	public int calcularInsurance(String licencia) {
 		int premium = PRIMABASE;
 		Scanner lector = new Scanner(System.in);
 		
