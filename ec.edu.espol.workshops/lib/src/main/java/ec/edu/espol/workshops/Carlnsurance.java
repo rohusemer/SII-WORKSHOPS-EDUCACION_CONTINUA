@@ -6,7 +6,7 @@ import java.util.Scanner;
  * The Carlnsurance class is a silly example to illustrate documentation.
  */
 
-class Carlnsurance {
+class Carlnsurance { /* clase principal */
   static int edad; // The age of the customer.
   static String sexo; // The sex of customer.
   static String eCivil;
@@ -54,7 +54,7 @@ class Carlnsurance {
 
   public static int calcularInsurance(String licencia) {
     int premium = PRIMA_BASE;
-    Scanner lector = new Scanner(System.in);
+    Scanner lector = new Scanner(System.in, "utf-8");
 
     if ((getEdad() > 80) || (licencia.equals("No Valido"))) {
       System.out.println("No podemos vender seguros a mayores de 80 años o sin licencias validas");
@@ -85,7 +85,7 @@ class Carlnsurance {
 
     System.out.println("///////////////////////////////");
 
-    Scanner lector = new Scanner(System.in);
+    Scanner lector = new Scanner(System.in, "utf-8");
 
     boolean edadCorrecta = false;
 
@@ -94,7 +94,7 @@ class Carlnsurance {
     while (!edadCorrecta) {
       System.out.println("Ingresar edad del cliente:");
       if (lector.hasNextInt()) {
-        ingresoEdad += lector.nextInt();
+        ingresoEdad = lector.nextInt();
         edadCorrecta = true;
         lector.nextLine();
 
@@ -112,7 +112,7 @@ class Carlnsurance {
 
       System.out.println("Ingresar sexo del cliente(M o F):");
 
-      ingresoSexo += lector.next();
+      ingresoSexo = lector.next();
 
       if ("M".equalsIgnoreCase(ingresoSexo) || "F".equalsIgnoreCase(ingresoSexo)) {
 
@@ -161,7 +161,7 @@ class Carlnsurance {
 
     while (!licenciaCorrecto) {
       System.out.print("El cliente entrego licencia valida?(Y o N): ");
-      ingresoLicencia += lector.next().toUpperCase();
+      ingresoLicencia = lector.next().toUpperCase();
 
       if ("Y".equals(ingresoLicencia) || "N".equals(ingresoLicencia)) {
         licenciaCorrecto = true;
