@@ -49,6 +49,7 @@
 [0;32m    msg:  [0mCommentRequired: Field comments are required
 [0;32m    code: [0mnull
 
+<<<<<<< HEAD
 [0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m6:6[0m
 [0;32m    rule: [0mMutableStaticState
 [0;32m    msg:  [0mMutableStaticState: Do not use non-final non-private static fields
@@ -685,3 +686,821 @@ Summary:
 
 ec.edu.espol.workshops.Carlnsurance : 43
 [1;33m*[0m warnings: [1;37m136[0m
+=======
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m11:11[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m11:11[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m12:12[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m12:12[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m14:18[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m14:18[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m15:15[0m
+[0;32m    rule: [0mAssignmentToNonFinalStatic
+[0;32m    msg:  [0mAssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m15:15[0m
+[0;32m    rule: [0mAssignmentToNonFinalStatic
+[0;32m    msg:  [0mAssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m16:16[0m
+[0;32m    rule: [0mAssignmentToNonFinalStatic
+[0;32m    msg:  [0mAssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m16:16[0m
+[0;32m    rule: [0mAssignmentToNonFinalStatic
+[0;32m    msg:  [0mAssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m17:17[0m
+[0;32m    rule: [0mAssignmentToNonFinalStatic
+[0;32m    msg:  [0mAssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m17:17[0m
+[0;32m    rule: [0mAssignmentToNonFinalStatic
+[0;32m    msg:  [0mAssignmentToNonFinalStatic: Possible unsafe assignment to a non-final static field in a constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m20:22[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m20:22[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m24:26[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m24:26[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m28:30[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m28:30[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m32:34[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m32:34[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m36:38[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m36:38[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m40:42[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m40:42[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m44:65[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m44:65[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m44:65[0m
+[0;32m    rule: [0mCyclomaticComplexity
+[0;32m    msg:  [0mCyclomaticComplexity: The method 'calcularInsurance(String)' has a cyclomatic complexity of 10.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m44:65[0m
+[0;32m    rule: [0mCyclomaticComplexity
+[0;32m    msg:  [0mCyclomaticComplexity: The method 'calcularInsurance(String)' has a cyclomatic complexity of 10.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m45:51[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premium' (lines '45'-'51').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m45:51[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'premium' (lines '45'-'51').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m46:46[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m46:46[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m49:49[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m49:49[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m49:49[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m49:49[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m50:50[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m50:50[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m53:53[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m56:56[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mCognitiveComplexity
+[0;32m    msg:  [0mCognitiveComplexity: The method 'main(String)' has a cognitive complexity of 27, current threshold is 15
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mCognitiveComplexity
+[0;32m    msg:  [0mCognitiveComplexity: The method 'main(String)' has a cognitive complexity of 27, current threshold is 15
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mCyclomaticComplexity
+[0;32m    msg:  [0mCyclomaticComplexity: The method 'main(String)' has a cyclomatic complexity of 14.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mCyclomaticComplexity
+[0;32m    msg:  [0mCyclomaticComplexity: The method 'main(String)' has a cyclomatic complexity of 14.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mModifiedCyclomaticComplexity
+[0;32m    msg:  [0mModifiedCyclomaticComplexity: The method 'main' has a Modified Cyclomatic Complexity of 11.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mModifiedCyclomaticComplexity
+[0;32m    msg:  [0mModifiedCyclomaticComplexity: The method 'main' has a Modified Cyclomatic Complexity of 11.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mNPathComplexity
+[0;32m    msg:  [0mNPathComplexity: The method 'main(String)' has an NPath complexity of 300, current threshold is 200
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mNPathComplexity
+[0;32m    msg:  [0mNPathComplexity: The method 'main(String)' has an NPath complexity of 300, current threshold is 200
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mNcssCount
+[0;32m    msg:  [0mNcssCount: The method 'main(String)' has a NCSS line count of 61.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mNcssCount
+[0;32m    msg:  [0mNcssCount: The method 'main(String)' has a NCSS line count of 61.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mStdCyclomaticComplexity
+[0;32m    msg:  [0mStdCyclomaticComplexity: The method 'main' has a Standard Cyclomatic Complexity of 11.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m67:144[0m
+[0;32m    rule: [0mStdCyclomaticComplexity
+[0;32m    msg:  [0mStdCyclomaticComplexity: The method 'main' has a Standard Cyclomatic Complexity of 11.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m68:68[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m68:68[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m69:69[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m69:69[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m70:70[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m70:70[0m
+[0;32m    rule: [0mCloseResource
+[0;32m    msg:  [0mCloseResource: Ensure that resources like this InputStream object are closed after use
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m73:77[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoEdad' (lines '73'-'77').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m73:77[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoEdad' (lines '73'-'77').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m75:75[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m75:75[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m77:77[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoEdad' (lines '77'-'77').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m77:77[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoEdad' (lines '77'-'77').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m87:90[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoSexo' (lines '87'-'90').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m87:90[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoSexo' (lines '87'-'90').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m89:89[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m89:89[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m90:90[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m90:90[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m90:90[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m90:90[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m91:91[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m91:91[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m91:91[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m91:91[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m91:91[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m91:91[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m91:91[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m91:91[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m95:95[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m95:95[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m102:105[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoEstado' (lines '102'-'105').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m102:105[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoEstado' (lines '102'-'105').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m104:104[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m104:104[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m105:105[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m105:105[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m105:105[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m105:105[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m106:106[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m106:106[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m106:106[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m106:106[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m106:106[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m106:106[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m106:106[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m106:106[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m109:109[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m109:109[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m109:109[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m109:109[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m110:105[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoEstado' (lines '110'-'105').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m110:105[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoEstado' (lines '110'-'105').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m112:105[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoEstado' (lines '112'-'105').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m112:105[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoEstado' (lines '112'-'105').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m115:115[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m115:115[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m120:123[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoLicencia' (lines '120'-'123').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m120:123[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoLicencia' (lines '120'-'123').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m122:122[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m122:122[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m123:123[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m123:123[0m
+[0;32m    rule: [0mLawOfDemeter
+[0;32m    msg:  [0mLawOfDemeter: Potential violation of Law of Demeter (method chain calls)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m123:123[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m123:123[0m
+[0;32m    rule: [0mUseLocaleWithCaseConversions
+[0;32m    msg:  [0mUseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m124:124[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m124:124[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m124:124[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m124:124[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m124:124[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m124:124[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m124:124[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m124:124[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m127:127[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m127:127[0m
+[0;32m    rule: [0mLiteralsFirstInComparisons
+[0;32m    msg:  [0mLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m127:127[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m127:127[0m
+[0;32m    rule: [0mPositionLiteralsFirstInComparisons
+[0;32m    msg:  [0mPositionLiteralsFirstInComparisons: Position literals first in String comparisons
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m128:123[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoLicencia' (lines '128'-'123').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m128:123[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoLicencia' (lines '128'-'123').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m130:123[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoLicencia' (lines '130'-'123').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m130:123[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'ingresoLicencia' (lines '130'-'123').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m133:133[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m133:133[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m142:142[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/Carlnsurance.java[0m:[0;36m142:142[0m
+[0;32m    rule: [0mSystemPrintln
+[0;32m    msg:  [0mSystemPrintln: System.out.println is used
+[0;32m    code: [0mnull
+
+
+
+Summary:
+
+ec.edu.espol.workshops.Carlnsurance : 55
+[1;33m*[0m warnings: [1;37m172[0m
+>>>>>>> branch 'PMD' of https://github.com/rohusemer/SII-WORKSHOPS-EDUCACION_CONTINUA.git
