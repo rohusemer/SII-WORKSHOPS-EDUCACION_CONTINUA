@@ -3,18 +3,18 @@ package ec.edu.espol.workshops;
 import java.util.Scanner;
 
 class Carlnsurance {
-	private static int edad;
-	private static String sexo;
-	private static String eCivil;
-	static final int PRIMABASE = 500;
-	static final int CasadoOMujer = 200;
-	static final int DescuentoEdad = 100;
-	static final int RecargoHombreJovenSoltero = 1500;
+	static int edad;
+	static String sexo;
+	static String eCivil;
+	static final int PRIMABASE = 500; // baseprima
+	static final int CASADOOMUJER = 200;
+	static final int DESCUENTOEDAD = 100;
+	static final int RECARGOHOMBREJOVENSOLTERO = 1500;
 
-	public Carlnsurance(int valoredad, String valorsexo, String estado) {
-		edad = valoredad;
-		sexo = valorsexo;
-		eCivil = estado;
+	public Carlnsurance(int valoredad, String valorsexo, String estado) { 	
+		edad = valoredad; // unsafe
+		sexo = valorsexo; // unsafe
+		eCivil = estado; // unsafe
 	}
 	
 	public static void setEdad(int valoredad) {
@@ -48,16 +48,16 @@ class Carlnsurance {
 		
 		if ((getEdad()>80) || (licencia.equals("No Valido"))) {
 			System.out.println("No podemos vender seguros a mayores de 80 años o sin licencias validas");
-			premium = -1;
+			premium -= 1;
 		}else {
 			if ((getSexo().equals("M"))&&(getEstado().equals("No Casado"))&&(getEdad()<25)) {
-				premium += RecargoHombreJovenSoltero;
+				premium += RECARGOHOMBREJOVENSOLTERO;
 			}
 			if((getEstado().equals("Casado"))||(getSexo().equals("F"))) {
-				premium -= CasadoOMujer;
+				premium -= CASADOOMUJER;
 			}
 			if((getEdad()>= 45)&&(getEdad()<65)) {
-				premium -= DescuentoEdad;
+				premium -= DESCUENTOEDAD;
 			}
 		}
 		lector.close();
@@ -74,7 +74,7 @@ class Carlnsurance {
 		while (!edadCorrecta) {
 			System.out.println("Ingresar edad del cliente:");
 			if (lector.hasNextInt()) {
-			    ingresoEdad = lector.nextInt();
+			    ingresoEdad += lector.nextInt();
 			    edadCorrecta = true;
 			    lector.nextLine();
 			} else {
@@ -87,8 +87,8 @@ class Carlnsurance {
 		String ingresoSexo = "";
 		while (!sexoCorrecto) {
 			System.out.println("Ingresar sexo del cliente(M o F):");
-			ingresoSexo = lector.next().toUpperCase();
-			if (ingresoSexo.equals("M") || ingresoSexo.equals("F")) {
+			ingresoSexo += lector.next();
+			if ("M".equalsIgnoreCase(ingresoSexo) || "F".equalsIgnoreCase(ingresoSexo)) {
 				sexoCorrecto = true;
 				lector.nextLine();
 			} else {
@@ -102,11 +102,11 @@ class Carlnsurance {
 		String ingresoEstado = "";
 		while (!estadoCorrecto) {
 			System.out.println("El cliente es casado?(Y o N):");
-			ingresoEstado = lector.next().toUpperCase();
-			if (ingresoEstado.equals("Y") || ingresoEstado.equals("N")) {
+			ingresoEstado += lector.next();
+			if ("Y".equalsIgnoreCase(ingresoEstado) || "N".equalsIgnoreCase(ingresoEstado)) {
 				estadoCorrecto = true;
 				lector.nextLine();
-				if (ingresoEstado.equals("Y")) {
+				if ("Y".equalsIgnoreCase(ingresoEstado)) {
 					ingresoEstado = "Casado";
 				} else {
 					ingresoEstado = "No Casado";
@@ -119,18 +119,18 @@ class Carlnsurance {
 		boolean licenciaCorrecto = false;
 		String ingresoLicencia = "";
 		while (!licenciaCorrecto) {
-			System.out.println("El cliente entrego licencia valida?(Y o N):");
-			ingresoLicencia = lector.next().toUpperCase();
-			if (ingresoLicencia.equals("Y") || ingresoLicencia.equals("N")) {
+			System.out.print("El cliente entrego licencia valida?(Y o N): ");
+			ingresoLicencia += lector.next().toUpperCase();
+			if ("Y".equals(ingresoLicencia) || "N".equals(ingresoLicencia)) {
 				licenciaCorrecto = true;
 				lector.nextLine();
-				if (ingresoLicencia.equals("Y")) {
+				if ("Y".equals(ingresoLicencia)) {
 					ingresoLicencia = "Valido";
 				} else {
 					ingresoLicencia = "No Valido";
 				}
 			} else {
-				System.out.println("Ingresar solo Y o N");
+				System.out.print("Ingresar solo Y o N: ");
 				lector.nextLine();
 			}
 		}
