@@ -69,7 +69,7 @@ class Carlnsurance { /* clase principal */
         premium -= CASADO_OMUJER;
       }
 
-      if ((getEdad() >= 45) && (getEdad() < 65)) {
+      if ((getEdad() >= 45) && (getEdad() < 65) && getSexo().equals("M")) {
         premium -= DESCUENTO_EDAD;
       }
 
