@@ -9,12 +9,14 @@
 plugins {
     // Apply the java-library plugin for API and implementation separation.
     id 'java-library'
+    
 }
 
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
 }
+
 
 dependencies {
     // Use JUnit test framework.
@@ -25,4 +27,27 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:30.0-jre'
+    
+    
+	
+	testImplementation 'io.cucumber:cucumber-java:6.8.1'
+	testImplementation 'io.cucumber:cucumber-junit:6.8.1'
+	
+}
+
+configurations {
+	cucumberRuntime {
+		extendsFrom testImplementation
+	}
+}
+
+task cucumber() {
+	dependsOn assemble, testClasses
+	doLast {
+		javaexec {
+			main = "io.cucumber.core.cli.Main"
+			classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+			args = ['--plugin', 'pretty','--monochrome','--plugin', 'html:lib/reports/cucumber-report.html','--glue', 'ec/edu/espol/workshops', 'src/main/java/ec/edu/espol/workshops/']
+		}
+	}
 }

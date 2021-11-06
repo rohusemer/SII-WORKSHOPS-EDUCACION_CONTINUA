@@ -11,7 +11,8 @@ class Carlnsurance {
 	static final int CasadoOMujer = 200;
 	static final int DescuentoEdad = 100;
 	static final int RecargoHombreJovenSoltero = 1500;
-
+	public static int premium = PRIMABASE;
+		
 	public Carlnsurance(int valoredad, String valorsexo, String estado) { 	
 		edad = valoredad; // unsafe
 		sexo = valorsexo; // unsafe
@@ -42,8 +43,13 @@ class Carlnsurance {
 		return eCivil;
 	}
 	
+	public static int getPremium() {
+		return premium;
+	}
+	
+	
 	public static int calcularInsurance(String licencia) {
-		int premium = PRIMABASE;
+		//int premium = PRIMABASE;
 		Scanner lector = new Scanner(System.in);
 		
 		

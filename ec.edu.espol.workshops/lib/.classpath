@@ -6,7 +6,18 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16/"/>
-	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16/">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/USER/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/6.8.1/14ac02359c841eef965a749b0560fba8fb5f9baf/cucumber-java-6.8.1.jar" sourcepath="C:/Users/USER/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/6.8.1/2503d2c899fc97a6c3cf67943bcff7071fa2b627/cucumber-java-6.8.1-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin/default"/>
 </classpath>
