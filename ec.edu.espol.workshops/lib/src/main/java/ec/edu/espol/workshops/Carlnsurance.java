@@ -10,7 +10,7 @@ class Carlnsurance { /* clase principal */
   static int edad; // The age of the customer.
   static String sexo; // The sex of customer.
   static String eCivil;
-  static final int PRIMA_BASE = 500;
+  static final int PRIMA_BASE = 600;
   static final int CASADO_OMUJER = 200;
   static final int DESCUENTO_EDAD = 100;
   static final int RECARGO_HOMBRE_JOVENSOLTERO = 1500;
