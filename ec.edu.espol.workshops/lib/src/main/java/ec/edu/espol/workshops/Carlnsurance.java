@@ -12,6 +12,8 @@ public class Carlnsurance {
 	static final int DescuentoEdad = 100;
 	static final int RecargoHombreJovenSoltero = 1500;
 	public static int premium = PRIMABASE;
+	static final int DescuentoCasadoHF= 50;
+	static final int DescuentoSolteroF=50;
 		
 	public Carlnsurance(int valoredad, String valorsexo, String estado) { 	
 		edad = valoredad; // unsafe
@@ -62,6 +64,12 @@ public class Carlnsurance {
 			}
 			if((getEdad()>= 45) && (getEdad()<65)) {
 				premium -= DescuentoEdad;
+			}
+			if((getEstado().equals("Casado"))||(getSexo().equals("F")) || (getSexo().equals("M")) && (getEdad()>30) && (getEdad()<60)) {
+				premium -= DescuentoCasadoHF;
+			}
+			if((getEstado().equals("Soltero"))||(getSexo().equals("F")) && (getEdad()>60)) {
+				premium -= DescuentoSolteroF;
 			}
 		}
 		lector.close();
